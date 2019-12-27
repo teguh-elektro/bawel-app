@@ -146,8 +146,8 @@ export default class HomeScreen extends Component {
             showsTraffic={true}
             region={this.state.mapRegion}
             initialRegion={{
-              latitude: -7.755322,
-              longitude: 110.381174,
+              latitude: -6.6204953,
+              longitude: 106.8185539,
               latitudeDelta: LATITUDE_DELTA,
               longitudeDelta: LONGITUDE_DELTA,
             }}>
@@ -156,7 +156,6 @@ export default class HomeScreen extends Component {
                 <Marker
                   key={item.id}
                   title={item.name}
-                  description={item.status}
                   draggable
                   coordinate={{
                     latitude: item.latitude || 0,

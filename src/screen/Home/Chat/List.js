@@ -26,7 +26,7 @@ export default class ListAvatarExample extends Component {
       componentDidMount(){
         const {email, displayName, uid} = firebase.auth().currentUser;
         this.setState({email, displayName, uid: uid});
-        this.getDataUser(this.state.uid)
+        //this.getDataUser(this.state.uid)
       }
     
       async getDataUser(uid) {
