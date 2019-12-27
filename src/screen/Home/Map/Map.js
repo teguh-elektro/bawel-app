@@ -9,7 +9,7 @@ import {
   Dimensions,
   TouchableOpacity,
 } from 'react-native';
-import MapView, {Marker , PROVIDER_GOOGLE} from 'react-native-maps';
+import MapView, { Marker , PROVIDER_GOOGLE } from 'react-native-maps';
 import Geolocation from 'react-native-geolocation-service';
 import database from '@react-native-firebase/database';
 import SafeAreaView from 'react-native-safe-area-view';
@@ -163,7 +163,7 @@ export default class HomeScreen extends Component {
                     longitude: item.longitude || 0,
                   }}
                   onCalloutPress={() => {
-                    this.props.navigation.navigate('FriendProfile', {
+                    this.props.navigation.navigate('Review', {
                       item,
                     });
                   }}>
