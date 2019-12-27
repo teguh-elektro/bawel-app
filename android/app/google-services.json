@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "257653599447",
+    "firebase_url": "https://chat-b2dbe.firebaseio.com",
+    "project_id": "chat-b2dbe",
+    "storage_bucket": "chat-b2dbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257653599447:android:d2edbabf2ea2ff29e39492",
+        "android_client_info": {
+          "package_name": "com.bawel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257653599447-28a9jqh3uld4358nf3s5v3po22jbhobg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bawel",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "257653599447-sapaqgbcu7cflv11mlugjrmu6hsvbcso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDez6yrM906OvoCg0vFKUCHZfJAfQf-o0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257653599447-sapaqgbcu7cflv11mlugjrmu6hsvbcso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
