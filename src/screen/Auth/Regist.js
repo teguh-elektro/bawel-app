@@ -35,8 +35,8 @@ class Regist extends React.Component {
           email: '',
           password: '',
           uid: '',
-          latitude: null,
-          longitude: null,
+          latitude: 0,
+          longitude: 0,
           errorMessage: null,
           loading: false,
           updatesEnabled: false,
@@ -141,8 +141,8 @@ class Regist extends React.Component {
                 status: 'Online',
                 email: this.state.email,
                 photo: 'https://bootdey.com/img/Content/avatar/avatar6.png',
-                latitude: this.state.latitude || null,
-                longitude: this.state.longitude || null,
+                latitude: this.state.latitude,
+                longitude: this.state.longitude,
                 id: userCredentials.user.uid,
               })
               .catch(error => {
@@ -193,8 +193,8 @@ class Regist extends React.Component {
                         status: 'Online',
                         email: response.user.email,
                         photo: response.user.photoURL,
-                        latitude: this.state.latitude || null,
-                        longitude: this.state.longitude || null,
+                        latitude: this.state.latitude,
+                        longitude: this.state.longitude,
                         id: response.user.uid,
                       });
                   } else {
@@ -205,8 +205,8 @@ class Regist extends React.Component {
                         status: 'Online',
                         email: response.user.email,
                         photo: response.user.photoURL,
-                        latitude: this.state.latitude || null,
-                        longitude: this.state.longitude || null,
+                        latitude: this.state.latitude,
+                        longitude: this.state.longitude,
                         id: response.user.uid,
                       });
                   }

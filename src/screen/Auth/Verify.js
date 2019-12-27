@@ -18,7 +18,7 @@ export default class Loading extends React.Component {
   render() {
     return (
         <Container>
-            <Header androidStatusBarColor='#694fad'/>
+            <Header style={{backgroundColor: '#694fad'}} androidStatusBarColor='#694fad'/>
             <Content>
                 <View>
                     <ActivityIndicator size='large' style={{flex: 1, backgroundColor: '#f5f5f5', opacity: 0.5}} color='#694fad' />
